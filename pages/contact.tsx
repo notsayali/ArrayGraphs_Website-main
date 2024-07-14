@@ -129,3 +129,7 @@ const Join = () => {
 };
 
 export default Join;
+
+export function generateStaticParams() {
+    return [{ slug: 'contact' }]
+  }
