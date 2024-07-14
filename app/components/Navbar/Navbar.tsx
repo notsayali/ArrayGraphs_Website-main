@@ -71,7 +71,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <Link href="./contact">
+                            <Link href="/pages/contact.tsx">
                                 <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>
                                     Contact us
                                 </button>
