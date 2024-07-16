@@ -11,10 +11,9 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/', current: false },
     { name: 'About Us', href: '/about', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Vision and Mission', href: '/visionmission', current: false },
-    { name: 'Patient Care Initiatives', href: '/blog', current: false },
-    { name: 'Our Brand', href: '/brand', current: false },
+    { name: 'Vision and mission', href: '/visionmission', current: false },
+    { name: 'Our brand', href: '/brand', current: false },
+    { name: 'Patient Care Initiative', href: '/blog', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -28,7 +27,7 @@ const Data = () => {
                 <div className="sm:block">
                     <div className="space-y-1 px-5 pt-2 pb-3">
                         {navigation.map((item) => (
-                            <Link
+                            <a
                                 key={item.name}
                                 href={item.href}
                                 className={classNames(
@@ -38,7 +37,7 @@ const Data = () => {
                                 aria-current={item.current ? 'page' : undefined}
                             >
                                 {item.name}
-                            </Link>
+                            </a>
                         ))}
                         <div className="mt-4"></div>
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
