@@ -31,9 +31,9 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                     <header className="px-4 py-4 flex items-center">
 
                         <div className="flex flex-shrink-0 items-center border-right">
-                            <Link href="/" className='text-2xl font-semibold text-black'>
-                                Arraygraphs
-                            </Link>
+                            <a href="/" className='text-2xl font-semibold text-black'>
+                                Risana Pharmaceuticals
+                            </a>
                         </div>
 
                         <XMarkIcon className="block h-6 w-6" onClick={() => {
