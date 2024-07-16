@@ -19,11 +19,11 @@ const Banner = () => {
     <div className="grid grid-cols-1 lg:grid-cols-1 my-16">
       <div className="mx-auto sm:mx-0 text-center lg:text-center">
         <div className="sm:text-10x1 py-5 pt-0">
-          <Link href="/brand">
+          <a href="/brand">
           <button className="text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-10 py-3 rounded-3xl tracking-wider hover:text-white hover:bg-navyblue">
             RISANA PHARMACEUTICALS
           </button>
-          </Link>
+          </a>
         </div>
         <div className="py-2">
           <h1 className="text-2xl sm:text-2xl font-bold text-center text-darkpurple" style={{ lineHeight: '1.3' }}>
